@@ -1,0 +1,66 @@
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vw;
+    overflow: hidden;
+}
+.conteneur
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choix{
+    width: 100vw;
+    height:90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    visibility: hidden;
+}
+h3
+{
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    display: block;
+}
+img{
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+}
+.active
+{
+    visibility: visible;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.direction
+{
+    width: 90%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
+}
+button
+{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 12px;
+}
